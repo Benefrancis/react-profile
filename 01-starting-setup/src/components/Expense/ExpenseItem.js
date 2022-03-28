@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 
 import ExpenseDate from './ExpenseDate';
-import Card from './Card';
+import Card from '../UI/Card';
 import './ExpenseItem.css';
 
 const ExpenseItem = (props) => {
+    
     //Atualizar o valor do elemento na tela depois da renderização inicial
     const [title, setTitle] = useState(props.title)
 
